@@ -1,1 +1,72 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background: url(images/pattern-background-desktop.svg) no-repeat top;
+}
 
+#container {
+    border-radius: 55px;
+}
+
+p {
+    color: rgb(158, 158, 158);
+}
+
+.order-info {
+    width: 25em;    
+    margin-left: 28em;
+}
+
+.image-section {
+    border-radius: 35px;    
+}
+
+.plan-section {
+    background-color: rgb(219, 219, 235);
+    width: 30em;
+    margin: 3em 0 3em 28em;
+    border-radius: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+span > a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+.plan {
+    margin: 0 20px;
+}
+
+button {
+    padding: 15px 95px;    
+    background-color: rgb(63, 63, 133);
+    color: white;
+    border: none;
+    border-radius: 10px;    
+    font-weight: bold;
+    box-shadow: rgb(235, 178, 235);
+}
+
+button:hover {
+    color: #000;
+}
+
+.payment-section a {
+    text-decoration: none;
+    color: rgb(226, 202, 202);
+    font-weight: bold;    
+}
+
+.payment-section p {
+    color: rgb(192, 170, 170);
+}
+
+a:hover {
+    color: black;
+}
