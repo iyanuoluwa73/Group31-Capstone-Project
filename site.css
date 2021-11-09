@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    background: url(images/pattern-background-desktop.svg) no-repeat top;
+    background: url(pattern-background-desktop.svg) no-repeat top;
 }
 
 #container {
